@@ -1,0 +1,7 @@
+1-Install Anaconda
+2-Open the conda prompt and write: conda create -n spyder-env -y
+conda activate spyder-env
+conda install spyder-kernals scikit-learn -y
+3-Now you need to connect Spyder to the created environment:
+Open Spyder ==> In the status bar you will see "Internal Python (version)" ==> change default environment in preference ==> select the option "use the following Python interpreter" ==> select the newly created environment "spyder-env"
+4-Restart kernal or Sypder as a whole
